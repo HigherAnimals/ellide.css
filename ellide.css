@@ -1,0 +1,72 @@
+.frame {
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.container {
+  position: relative;
+  width: 200%;
+}
+
+.abbr {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+}
+
+.abbr div {
+  display: inline-block;
+  height: 20px;
+}
+
+.block {
+  float: right;
+  height: 20px;
+  width: 50%;
+}
+
+.full {
+  float: right;
+  position: relative;
+  height: 20px;
+  min-width: 50%;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  text-align: left;
+  background-color: #fff;
+}
+
+.ellipsis {
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.last {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.abbr div, .full {
+  color: blue;
+  text-decoration: underline;
+}
+
+.abbr:hover div, .full:hover {
+  color: blue;
+  text-decoration: none;
+}
